@@ -1,2 +1,3 @@
-# blogger
-A simple Ruby on Rails application
+# Blogger
+
+A simple Ruby on Rails web application.
