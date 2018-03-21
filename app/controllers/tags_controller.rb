@@ -1,4 +1,5 @@
 class TagsController < ApplicationController
+  before_action :require_login, only: [:destroy]
 
   def index
     @tags = Tag.all
@@ -16,5 +17,5 @@ class TagsController < ApplicationController
 
     redirect_to tags_path
   end
-  
+
 end
